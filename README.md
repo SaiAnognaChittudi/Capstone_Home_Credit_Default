@@ -17,9 +17,9 @@ To combine all the points the business problem in an overall sense is to find th
 
 The project's primary objective is to develop a high-performance machine learning predictive model for the target variable using data provided from multiple sources, thereby facilitating business expansion. This model will be trained from the data available from the kaggle which are the appication data, previous data of customers, Bureau data and Credit card balance data. Thus utilizing the data the machine learing models will learn all the attributes and correlations with respect to the Target Variable. 
 
-### To reitterate in simpler terms, the Project objective is to create a Machine learning model to :
-### Find the individuals who are highly likely to default
-### Find the individuals with high repayment abilities to expand the Home credit's customer base
+ To reitterate in simpler terms, the Project objective is to create a Machine learning model to :
+1. Find the individuals who are highly likely to default
+2. Find the individuals with high repayment abilities to expand the Home credit's customer base
 
 # Groups's Solution 
 
