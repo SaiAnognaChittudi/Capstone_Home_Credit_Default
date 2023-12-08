@@ -36,10 +36,9 @@ These points are the solution that we have provided as a group for the Home Cred
 
 # Contribution to Project
 
+I have played a pivotal role in the project by delivering a compelling project introduction that effectively framed the work's context and objectives. I have also skillfully managed outliers using Winsorization techniques, ensuring the integrity and robustness of the data. My analysis of correlation and covariance values along with the plots for the same, helped with the identification of key features within the dataset for subsequent modeling. Additionally, I have adeptly addressed inaccuracies present in the numerical data by using the Imputation methods.
 
-
-
-
+Taking the initiative to apply the Gradient Boosting model, I went a step further by extending it to the XGBoost model as the general gradient boostong model is taking a lot of time to get proccessed. Through meticulous hyperparameter tuning using GridSearchCV, the model's performance is significantly improved. My contributions extended beyond individual efforts by actively participated in group discussions, sharing valuable insights derived from the model findings. This approach of mine has enhanced the overall effectiveness of the project
 
 
 
