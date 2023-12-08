@@ -23,5 +23,26 @@ The project's primary objective is to develop a high-performance machine learnin
 
 # Groups's Solution 
 
+We have bulit several models on the training data to test the models and find the best model that can be presented to the Home Credit. The models that we as a group developed are Logistic Regression, XG Boost, Random Forst Classifier and Light Gradient Boosting Models. After testing all the model, we found that Light Gradient Boosting and XG Boost models to be good with 0.92 and 0.91 accuracy respectively. But considering the Run time, we have declared the LGB as our best model and got the solution for the business problem from the same.
+
+We found from the LGB model that we developed the top features which contributes for the solution which are External Data Scores provided in the application data, the Annuity-to-Credit Ratio(ACR) which we have created from the data during the Feature Engineering phase.
+
+Also, we identified some of the traits of individuals who have high repayment abilities are as follows:
+1. Married individuals
+2. Individuals who own a Car or House
+3. Individuals who have a higher education degree
+
+These points are the solution that we have provided as a group for the Home Credit along with providing a Light Gradient Boosting model code for the Home Credit to implement as a solution to find the High default risk customers.
+
+# Contribution to Project
+
+
+
+
+
+
+
+
+
 
 
