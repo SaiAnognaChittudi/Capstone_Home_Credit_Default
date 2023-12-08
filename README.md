@@ -23,7 +23,7 @@ The project's primary objective is to develop a high-performance machine learnin
 2. Find individuals with high repayment abilities to expand Home credit's customer base
 
 
-# Groups's Solution 
+# Group Solution 
 
 We have built several models on the training data to test the models and find the best model to be presented to the Home Credit. The models that we developed as a group are logistic regression, XG Boost, random forest classifier, and light gradient boosting models. After testing all the models, we found the Light Gradient Boosting and XG Boost models to be good, with 0.92 and 0.91 accuracy, respectively. But considering the Run time, we have declared the LGB as our best model and got the solution for the business problem from the same.
 
