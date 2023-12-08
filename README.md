@@ -38,7 +38,38 @@ These points are the solution that we have provided as a group for the Home Cred
 
 I have played a pivotal role in the project by delivering a compelling project introduction that effectively framed the work's context and objectives. I have also skillfully managed outliers using Winsorization techniques, ensuring the integrity and robustness of the data. My analysis of correlation and covariance values along with the plots for the same, helped with the identification of key features within the dataset for subsequent modeling. Additionally, I have adeptly addressed inaccuracies present in the numerical data by using the Imputation methods.
 
-Taking the initiative to apply the Gradient Boosting model, I went a step further by extending it to the XGBoost model as the general gradient boostong model is taking a lot of time to get proccessed. Through meticulous hyperparameter tuning using GridSearchCV, the model's performance is significantly improved. My contributions extended beyond individual efforts by actively participated in group discussions, sharing valuable insights derived from the model findings. This approach of mine has enhanced the overall effectiveness of the project
+Taking the initiative to apply the Gradient Boosting model, I went a step further by extending it to the XGBoost model as the general gradient boostong model is taking a lot of time to get proccessed. Through meticulous hyperparameter tuning using GridSearchCV, the model's performance is significantly improved. My contributions extended beyond individual efforts by actively participated in group discussions, sharing valuable insights derived from the model findings. This approach of mine has enhanced the overall effectiveness of the project's work.
+
+# The business value of Solution
+
+We have compared the basic model which is logistic regression to the model which we have selected as best model which is LGB model. For those we have considered the precision value which is 0.69 for Logisric regression and for LGB model it is 0.92
+
+When an example of 10000 customers are taken as customers who are less likely to default. By using the precision value we have calculated the prediction of risk of default by using both the logistic and LGB model which actually has to 0 value according to the example we have taken.
+
+The predictions are as follows:
+Logistic Regression - 3193
+LGB Model           - 16
+
+This proves that the LGB model will provide more than 3000 customers to the Home Credit expanding its customoer base which is caused by the use of the LGB Model.
+This Business solution perfectly aligns with the Home Credit's motto of reducing the Finanacial services gap in the society.
+
+# Difficulties faced by the Group during the Project
+
+Throughout the Home Credit Risk Analysis project, our team faced several challenges demanding meticulous problem-solving and thoughtful consideration. First and foremost thing is to run the model on the local machines as machine learning model take lot of computaion power to run them. Espically, the Gradient boosting model with the GridSearch Cross-validation method took a look of computational power and took hours to fit the model on training data. 
+
+Other point is managing the Class Imbalance of Target variable. There is a 1:10 ratio of defaulter to non-defaulters in the data so reducing it is really important to reduce the Bias in the model. We as a group has tried undersampling first which doesn't improve model performance significantly so we have tried SMOTE oversampling which improved all the models performances. 
+
+Otherthan the technical issues, we have struggled to meet the deadlines there are other subjects deadlines along with this project and most importantly, the job responsibilities of the team members also made it difficult to focus entirely on the project and meet the deadlines. But even with all the difficulties we faced as a group we managed to move together and get the project completed by the end of the semester.
+
+# Learning from the Project
+
+This project has provided me a detailed understsnding of how the data will be present in real world. This provided me an experience of managing the machine learning models as a group and has gave me a learning experience of intepreting the results form the model. Significantly, it afforded me a deeper insight into the challenges posed by imbalanced datasets and underscored the critical importance of effectively addressing class imbalance.
+
+The project also taught me the value of effective collaboration and communication within a team framework. Consistent meetings, transparent task allocation, and harnessing each team member's expertise emerged as essential components for achieving project success, particularly given the project's strict timelines and limited resources.
+
+Finally, the Home Credit Risk Analysis project not only enhanced my comprehension of data science methodologies but also enriched my skill set in handling imbalanced data, integrating diverse data sources, and interpreting intricate machine learning models. The encountered challenges and subsequent learning experiences have served as a driving force, further motivating me to continually refine my data science expertise and contribute to impactful solutions within the field.
+
+
 
 
 
